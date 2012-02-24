@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -58,11 +58,11 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import com.android.launcher2.DropTarget.DragObject;
+import com.android.launcher2.preference.PreferencesProvider;
 
-import static com.cyanogenmod.trebuchet.AppsCustomizeView.ContentType;
-import static com.cyanogenmod.trebuchet.AppsCustomizeView.SortMode;
+import static com.android.launcher2.AppsCustomizeView.ContentType;
+import static com.android.launcher2.AppsCustomizeView.SortMode;
 
 import java.util.ArrayList;
 import java.util.Collections;

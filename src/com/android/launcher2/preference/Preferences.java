@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet.preference;
+package com.android.launcher2.preference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import com.cyanogenmod.trebuchet.R;
+import com.android.launcher2.R;
 
 public class Preferences extends PreferenceActivity {
 

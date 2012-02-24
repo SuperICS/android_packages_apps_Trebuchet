@@ -1,4 +1,4 @@
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -13,7 +13,7 @@ import android.os.Build;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import com.android.launcher2.preference.PreferencesProvider;
 
 public class AppWidgetResizeFrame extends FrameLayout {
 

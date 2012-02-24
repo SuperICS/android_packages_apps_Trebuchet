@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -48,7 +48,7 @@ public class WallpaperChooserDialogFragment extends DialogFragment implements
         AdapterView.OnItemSelectedListener, AdapterView.OnItemClickListener {
 
     private static final String TAG = "Launcher.WallpaperChooserDialogFragment";
-    private static final String EMBEDDED_KEY = "com.cyanogenmod.trebuchet."
+    private static final String EMBEDDED_KEY = "com.android.launcher2."
             + "WallpaperChooserDialogFragment.EMBEDDED_KEY";
 
     private boolean mEmbedded;
@@ -201,8 +201,8 @@ public class WallpaperChooserDialogFragment extends DialogFragment implements
 
         final Resources resources = getResources();
         // Context.getPackageName() may return the "original" package name,
-        // com.cyanogenmod.trebuchet; Resources needs the real package name,
-        // com.cyanogenmod.trebuchet. So we ask Resources for what it thinks the
+        // com.android.launcher2; Resources needs the real package name,
+        // com.android.launcher2. So we ask Resources for what it thinks the
         // package name should be.
         final String packageName = resources.getResourcePackageName(R.array.wallpapers);
 

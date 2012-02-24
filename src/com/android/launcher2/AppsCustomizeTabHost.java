@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -33,7 +33,7 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.TextView;
 
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import com.android.launcher2.preference.PreferencesProvider;
 
 import java.util.ArrayList;
 

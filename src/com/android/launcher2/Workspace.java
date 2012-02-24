@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 
 import android.animation.Animator;
@@ -69,9 +69,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.cyanogenmod.trebuchet.FolderIcon.FolderRingAnimator;
-import com.cyanogenmod.trebuchet.InstallWidgetReceiver.WidgetMimeTypeHandlerData;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import com.android.launcher2.FolderIcon.FolderRingAnimator;
+import com.android.launcher2.InstallWidgetReceiver.WidgetMimeTypeHandlerData;
+import com.android.launcher2.preference.PreferencesProvider;
 
 import java.util.ArrayList;
 import java.util.HashSet;

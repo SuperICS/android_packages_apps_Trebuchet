@@ -15,7 +15,7 @@
  */
 
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.ValueAnimator;
 import android.animation.ValueAnimator.AnimatorUpdateListener;

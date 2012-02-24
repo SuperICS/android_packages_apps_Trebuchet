@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.app.SearchManager;
 import android.appwidget.AppWidgetHost;
@@ -47,7 +47,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.Xml;
 import com.android.internal.util.XmlUtils;
-import com.cyanogenmod.trebuchet.LauncherSettings.Favorites;
+import com.android.launcher2.LauncherSettings.Favorites;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -64,7 +64,7 @@ public class LauncherProvider extends ContentProvider {
 
     private static final int DATABASE_VERSION = 9;
 
-    static final String AUTHORITY = "com.cyanogenmod.trebuchet.settings";
+    static final String AUTHORITY = "com.android.launcher2.settings";
 
     static final String TABLE_FAVORITES = "favorites";
     static final String PARAMETER_NOTIFY = "notify";

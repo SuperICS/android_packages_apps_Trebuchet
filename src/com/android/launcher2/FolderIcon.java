@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,8 +37,8 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
-import com.cyanogenmod.trebuchet.FolderInfo.FolderListener;
+import com.android.launcher2.DropTarget.DragObject;
+import com.android.launcher2.FolderInfo.FolderListener;
 
 import java.util.ArrayList;
 

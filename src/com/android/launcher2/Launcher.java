@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -95,9 +95,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.common.Search;
-import com.cyanogenmod.trebuchet.R;
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
-import com.cyanogenmod.trebuchet.preference.*;
+import com.android.launcher2.R;
+import com.android.launcher2.DropTarget.DragObject;
+import com.android.launcher2.preference.*;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -163,7 +163,7 @@ public final class Launcher extends Activity
     // Type: long
     private static final String RUNTIME_STATE_PENDING_FOLDER_RENAME_ID = "launcher.rename_folder_id";
 
-    private static final String TOOLBAR_ICON_METADATA_NAME = "com.cyanogenmod.trebuchet.toolbar_icon";
+    private static final String TOOLBAR_ICON_METADATA_NAME = "com.android.launcher2.toolbar_icon";
 
     /** The different states that Launcher can be in. */
     private enum State { WORKSPACE, APPS_CUSTOMIZE, APPS_CUSTOMIZE_SPRING_LOADED };

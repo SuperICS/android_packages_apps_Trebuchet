@@ -18,7 +18,7 @@
 // background stellar matter:
 //  - add some slow horizontal parallax motion, or perhaps veeeeery gradual outward drift
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

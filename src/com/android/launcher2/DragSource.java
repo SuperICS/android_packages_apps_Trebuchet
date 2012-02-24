@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.view.View;
-import com.cyanogenmod.trebuchet.DropTarget.DragObject;
+import com.android.launcher2.DropTarget.DragObject;
 
 /**
  * Interface defining an object that can originate a drag.

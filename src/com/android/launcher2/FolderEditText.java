@@ -1,4 +1,4 @@
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.content.Context;
 import android.util.AttributeSet;

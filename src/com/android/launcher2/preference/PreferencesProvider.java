@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet.preference;
+package com.android.launcher2.preference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.cyanogenmod.trebuchet.Workspace;
-import com.cyanogenmod.trebuchet.AppsCustomizePagedView;
+import com.android.launcher2.Workspace;
+import com.android.launcher2.AppsCustomizePagedView;
 
 public final class PreferencesProvider {
-    public static final String PREFERENCES_KEY = "com.cyanogenmod.trebuchet_preferences";
+    public static final String PREFERENCES_KEY = "com.android.launcher2_preferences";
 
     public static final String PREFERENCES_CHANGED = "preferences_changed";
 

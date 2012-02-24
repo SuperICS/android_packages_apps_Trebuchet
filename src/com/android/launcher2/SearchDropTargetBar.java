@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.trebuchet;
+package com.android.launcher2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,7 +28,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
-import com.cyanogenmod.trebuchet.preference.PreferencesProvider;
+import com.android.launcher2.preference.PreferencesProvider;
 
 /*
  * Ths bar will manage the transition between the QSB search bar and the delete drop
